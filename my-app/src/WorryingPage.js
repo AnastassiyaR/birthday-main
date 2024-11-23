@@ -2,8 +2,8 @@ import React from "react";
 import './WorryingPage.css'; // Импортируем стили
 import { useNavigate } from "react-router-dom"; // Для навигации между страницами
 import { motion } from 'framer-motion';
-import ButtonSuprise from "./components/button_suprise.jsx";
-import weImage from './worry.png'; // Импортируем изображение
+import ButtonSuprise from "./components/button_suprise.js";
+import weImage from './assets/worry.png';
 
 function WoryingPage() {
     const pageVariants = {

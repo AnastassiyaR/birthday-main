@@ -2,7 +2,7 @@ import React from "react";
 import './SupportPage.css';
 import { useNavigate } from "react-router-dom"; // Импортируем useNavigate для навигации
 import { motion } from 'framer-motion';
-import ButtonSuprise from "./components/button_suprise.jsx";
+import ButtonSuprise from "./components/button_suprise.js";
 import studyImage from './assets/help.png'; // Импортируем изображение
 
 function SupportPage() {

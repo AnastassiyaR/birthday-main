@@ -1,4 +1,5 @@
-import { StrictMode } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom/client'; // Note the import change
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import MainPage from './MainPage.js';
@@ -35,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

@@ -2,7 +2,7 @@ import React from "react";
 import './WorkingPage.css'; // Импортируем стили
 import { useNavigate } from "react-router-dom"; // Для навигации между страницами
 import { motion } from 'framer-motion';
-import ButtonSuprise from "./components/button_suprise.jsx";
+import ButtonSuprise from "./components/button_suprise.js";
 import weImage from './assets/study.png'; // Импортируем изображение
 
 function WorkingPage() {

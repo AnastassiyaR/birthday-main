@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './RealPage.css'; // Импортируем стили
 import { useNavigate } from "react-router-dom"; // Для навигации между страницами
 import { motion } from 'framer-motion';
-import ButtonSuprise from "./components/button_suprise.jsx";
 import weImage from './assets/dummy.png'; // Импортируем изображение
 
 function RealPage() {
